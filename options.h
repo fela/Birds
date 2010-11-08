@@ -1,11 +1,11 @@
 #ifdef __APPLE__
     #include <GLUT/glut.h>
-		#include <OpenGL/gl.h>
-		#include <OpenGL/glu.h>
+    #include <OpenGL/gl.h>
+    #include <OpenGL/glu.h>
 #else
     #include <GL/glut.h>
-		#include <gl.h>
-		#include <glu.h>
+    #include <GL/gl.h>
+    #include <GL/glu.h>
 #endif
 
 #define OBST_MAX_LENGHT 0.5   //set to 0.0 to disable
